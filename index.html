@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SQLInsights — PostgreSQL Performance Intelligence. Find, understand, fix and prevent slow SQL.">
+  <meta name="theme-color" content="#0b2a66">
+  <title>SQLInsights | SQL Performance Intelligence for PostgreSQL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="SQLInsights home">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="db-layer"></span><span class="db-layer"></span><span class="db-layer"></span>
+          <span class="mark-lens"></span>
+          <span class="mark-line"></span>
+        </span>
+        <span>
+          <strong><span>SQL</span>INSIGHTS</strong>
+          <small>SEE. ANALYZE. OPTIMIZE.</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#what-we-do">What We Do</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#use-cases">Use Cases</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="button button-small contact-trigger" type="button" data-contact-open>Talk to Us</button>
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+<section class="privacy section" id="privacy">
+      <div class="container privacy-grid">
+        <div class="lock">🔒</div>
+        <div>
+          <p class="eyebrow">PRIVACY BY DESIGN</p>
+          <h2>Your Data Stays With You. Always.</h2>
+          <p>SQLInsights is designed so that customer data remains within the customer's environment.</p>
+          <div class="privacy-points">
+            <span>✓ All telemetry &amp; metadata collected from your PostgreSQL stays within your environment.</span>
+            <span>✓ No customer data is stored by SQLInsights.</span>
+            <span>✓ No queries, plans or schema are shared or exposed outside your network.</span>
+            <span>✓ You stay in control. Always.</span>
+          </div>
+        </div>
+        <strong class="privacy-badge">100% YOUR DATA.<br>0% EXPOSED.</strong>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">POSTGRESQL PERFORMANCE INTELLIGENCE</p>
+          <h1>Find. Understand.<br><span>Fix. Prevent Slow SQL.</span></h1>
+          <p class="hero-sub">SQL Performance Intelligence for <strong>PostgreSQL</strong>.</p>
+          <p class="hero-text">SQLInsights helps organizations analyze, optimize and proactively improve PostgreSQL query performance with actionable, executable insights.</p>
+          <div class="hero-actions">
+            <a class="button" href="#what-we-do">Explore SQLInsights <span>→</span></a>
+            <a class="button button-outline" href="#contact">Talk to Us</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="dashboard-window">
+            <div class="dashboard-top"><span class="mini-brand">SQLINSIGHTS</span><span class="search"></span></div>
+            <div class="dashboard-body">
+              <aside>
+                <span class="side-active">◉ Overview</span>
+                <span>⌕ Query Analysis</span>
+                <span>◌ Similar Queries</span>
+                <span>✣ Recommendations</span>
+                <span>⌘ Knowledge Graph</span>
+                <span>◉ Monitoring</span>
+                <span>⚙ Settings</span>
+              </aside>
+              <div class="dashboard-main">
+                <h3>Query Analysis</h3>
+                <div class="metric-row">
+                  <div><small>Overall Impact</small><b class="danger">● High</b></div>
+                  <div><small>Execution Time</small><b>2.34 s</b></div>
+                  <div><small>Rows Returned</small><b>1,245,678</b></div>
+                  <div><small>Cost</small><b>1,284.56</b></div>
+                </div>
+                <div class="panel">
+                  <strong>Top Problems</strong>
+                  <p><span class="dot danger-dot"></span> Sequential Scan on large table <em>High</em></p>
+                  <p><span class="dot danger-dot"></span> Missing composite index <em>High</em></p>
+                  <p><span class="dot warn-dot"></span> Inefficient Top-N (Sort before LIMIT) <em>Medium</em></p>
+                  <p><span class="dot ok-dot"></span> Row estimation mismatch <em>Low</em></p>
+                </div>
+                <div class="recommend">
+                  <strong>Top Recommendations</strong>
+                  <p>✓ Create index: CREATE INDEX ...</p>
+                  <p>✓ Add filter conditions to reduce rows</p>
+                  <p>✓ Consider query rewrite to use index</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-note">Turn slow SQL<br>into faster<br>applications.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pillars">
+      <div class="container pillar-grid">
+        <div class="pillar"><span class="icon blue">◎</span><div><b>DETECT</b><small>Performance Issues</small></div></div>
+        <div class="pillar"><span class="icon green">♧</span><div><b>RECOMMEND</b><small>Actionable Fixes</small></div></div>
+        <div class="pillar"><span class="icon purple">⌘</span><div><b>LEARN</b><small>Build Enterprise Knowledge Graph</small></div></div>
+        <div class="pillar"><span class="icon orange">✓</span><div><b>PREVENT</b><small>Proactive Monitoring</small></div></div>
+      </div>
+    </section>
+
+    <section class="problem section">
+      <div class="container problem-grid">
+        <div>
+          <p class="eyebrow">WHY SQLINSIGHTS</p>
+          <h2>PostgreSQL Performance Problems Don't Wait for You</h2>
+          <p>Slow SQL, inefficient execution plans, lock contention, resource bottlenecks and performance regressions can become production incidents before teams have time to diagnose them.</p>
+          <p class="accent-copy">SQLInsights shifts database performance from reactive troubleshooting to proactive optimization.</p>
+        </div>
+        <div class="problem-visual">
+          <div class="pg-elephant">🐘</div>
+          <div class="risk-list">
+            <span>⚠ Slow Queries</span>
+            <span>▮ High Infrastructure Cost</span>
+            <span>🔒 Performance Regressions</span>
+            <span>▤ Production Incidents</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="what-we-do">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT SQLINSIGHTS DOES</p>
+          <h2>End-to-End PostgreSQL Performance Intelligence</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card"><span class="feature-icon blue">⌕</span><h3>Deep SQL Analysis</h3><p>Analyzes SQL queries and EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON) plans to find the real root causes.</p></article>
+          <article class="feature-card"><span class="feature-icon green">⚒</span><h3>Actionable Recommendations</h3><p>Provides specific, executable SQL fixes like missing indexes, rewritten queries and configuration hints.</p></article>
+          <article class="feature-card"><span class="feature-icon purple">⌘</span><h3>Knowledge Graph &amp; Similarity</h3><p>Learns from every query and fix, building a graph of patterns, problems and solutions.</p></article>
+          <article class="feature-card"><span class="feature-icon orange">✓</span><h3>Guardrail for Developers</h3><p>Validates SQL before execution and helps prevent costly performance issues.</p></article>
+          <article class="feature-card"><span class="feature-icon cyan">◉</span><h3>Proactive Monitoring</h3><p>A lightweight agent collects PostgreSQL telemetry and sends it to SQLInsights for continuous monitoring and early detection.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light" id="use-cases">
+      <div class="container three-col">
+        <div class="card-list">
+          <p class="eyebrow">KEY USE CASES</p>
+          <h2>Where SQLInsights Helps</h2>
+          <article><span class="use-icon green">▣</span><div><h3>Troubleshoot Slow Queries</h3><p>Quickly identify why a query is slow and how to fix it.</p></div></article>
+          <article><span class="use-icon orange">✓</span><div><h3>Pre-Deployment SQL Validation</h3><p>Validate and optimize SQL before it hits production.</p></div></article>
+          <article><span class="use-icon blue">▥</span><div><h3>Proactive Performance Monitoring</h3><p>Continuously monitor PostgreSQL clusters to detect regressions and anomalies early.</p></div></article>
+          <article><span class="use-icon purple">▤</span><div><h3>Build Organizational Knowledge</h3><p>Capture expert learnings and build a growing repository of SQL patterns, problems and solutions.</p></div></article>
+          <article><span class="use-icon cyan">☁</span><div><h3>Database Migrations</h3><p>Identify problematic SQL and index gaps during migration to PostgreSQL for a smoother transition.</p></div></article>
+        </div>
+
+        <div class="card-list">
+          <p class="eyebrow">KEY CAPABILITIES</p>
+          <h2>From Diagnosis to Action</h2>
+          <ul class="capability-list">
+            <li>▤ <span>Query Analysis</span></li>
+            <li>⌕ <span>Similar Queries</span></li>
+            <li>✣ <span>Recommendations</span></li>
+            <li>⌘ <span>Knowledge Graph</span></li>
+            <li>◎ <span>Monitoring</span></li>
+            <li>▥ <span>Plan Visualization</span></li>
+            <li>⚠ <span>Problem Detectors</span></li>
+            <li>⌕ <span>Similarity Search</span></li>
+            <li>▤ <span>EXPLAIN Simplification</span></li>
+            <li>&lt;/&gt; <span>APIs &amp; SDK</span></li>
+          </ul>
+        </div>
+
+        <div class="card-list" id="benefits">
+          <p class="eyebrow">BENEFITS TO YOU</p>
+          <h2>Better Performance. Lower Cost.</h2>
+          <article><span class="use-icon green">⌁</span><div><h3>Faster Performance</h3><p>Identify bottlenecks and fix root causes to make queries faster.</p></div></article>
+          <article><span class="use-icon orange">$</span><div><h3>Lower Infrastructure Cost</h3><p>Optimize queries and indexes to reduce CPU, I/O and storage costs.</p></div></article>
+          <article><span class="use-icon blue">♢</span><div><h3>Higher Reliability</h3><p>Detect issues early and prevent performance regressions.</p></div></article>
+          <article><span class="use-icon purple">◎</span><div><h3>Actionable &amp; Accurate</h3><p>Get precise, executable recommendations — not just generic advice.</p></div></article>
+          <article><span class="use-icon green">⌘</span><div><h3>Knowledge That Grows</h3><p>Build a reusable knowledge base of what works for your environment.</p></div></article>
+          <article><span class="use-icon blue">♙</span><div><h3>Developer Productivity</h3><p>Spend less time debugging SQL, more time building great products.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <div class="container lower-grid">
+        <div class="how-card">
+          <p class="eyebrow">HOW IT WORKS</p>
+          <h2>A Simple Path to Better PostgreSQL Performance</h2>
+          <div class="steps">
+            <div><span>◉</span><b>1. Telemetry Collection</b><small>SQLInsights Agent collects raw telemetry from PostgreSQL.</small></div>
+            <i>→</i>
+            <div><span>▤</span><b>2. Ingestion &amp; Storage</b><small>Raw events are stored securely in your environment.</small></div>
+            <i>→</i>
+            <div><span>◉</span><b>3. Analysis &amp; Intelligence</b><small>SQLInsights Engine analyzes, enriches and builds insights.</small></div>
+            <i>→</i>
+            <div><span>▥</span><b>4. Insights &amp; Actions</b><small>Dashboards, alerts, APIs and recommendations help teams act.</small></div>
+          </div>
+        </div>
+        <div class="telemetry">
+          <p class="eyebrow">TELEMETRY SOURCES (VIA AGENT)</p>
+          <h2>Built Around PostgreSQL</h2>
+          <ul>
+            <li>pg_stat_statements</li><li>pg_stat_io</li>
+            <li>auto_explain</li><li>Locks &amp; Wait Events</li>
+            <li>PostgreSQL Logs</li><li>Replication Stats</li>
+            <li>pg_stat_activity</li><li>VACUUM / ANALYZE</li>
+            <li>pg_stat_database</li><li>Runtime Metrics &amp; more</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="audience section">
+      <div class="container audience-grid">
+        <div>
+          <p class="eyebrow">WHO CAN BENEFIT</p>
+          <h2>Built for Teams Running PostgreSQL</h2>
+          <div class="audience-items">
+            <span>🏢 <b>Enterprises with PostgreSQL</b><small>Financial Services, Retail, Healthcare, Telecom, SaaS, and more.</small></span>
+            <span>◯ <b>DBA Teams</b><small>Monitor and optimize performance across multiple databases.</small></span>
+            <span>&lt;/&gt; <b>Developers &amp; SREs</b><small>Write better SQL, debug faster, ship with confidence.</small></span>
+            <span>☁ <b>Platform &amp; SaaS Providers</b><small>Offer SQL performance observability as a value-add to customers.</small></span>
+            <span>◉ <b>Analytics &amp; Data Teams</b><small>Ensure SQL used by data and analytics workloads is performant and production-ready.</small></span>
+          </div>
+        </div>
+        <div class="postgres-only">
+          <div class="pg-mark">🐘</div>
+          <h2>PostgreSQL Only</h2>
+          <p><strong>For now.</strong></p>
+          <p>Focused deeply on PostgreSQL performance intelligence.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="container cta-wrap">
+        <div>
+          <p class="eyebrow">PILOT • DESIGN PARTNERS • ENTERPRISE EVALUATIONS</p>
+          <h2>Help Shape the Next Generation of PostgreSQL Performance Intelligence</h2>
+          <p>We're currently launching our Proactive Monitoring Platform, with first customer deployments planned for October 2026. We're looking for pilot customers, design partners, enterprise evaluations and technology partners.</p>
+        </div>
+        <button class="button button-light contact-trigger" type="button" data-contact-open>Talk to Us →</button>
+      </div>
+    </section>
+  </main>
+
+
+    <div class="contact-panel" id="contact-panel" aria-hidden="true">
+      <div class="contact-backdrop" data-contact-close></div>
+      <div class="contact-dialog" role="dialog" aria-modal="true" aria-labelledby="contact-dialog-title">
+        <button class="contact-close" type="button" aria-label="Close contact panel" data-contact-close>×</button>
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 id="contact-dialog-title">Let's Talk About PostgreSQL Performance</h2>
+        <p>Reach out to discuss a pilot, enterprise evaluation, design partnership, or how SQLInsights can help your PostgreSQL environment.</p>
+
+        <div class="contact-email">
+          <span class="contact-email-label">Email</span>
+          <a href="mailto:pprandive@gmail.com?subject=SQLInsights%20Enquiry&body=Hello%20Prafulla%2C%0A%0AI%20would%20like%20to%20know%20more%20about%20SQLInsights.%0A%0AMy%20name%3A%0AOrganization%3A%0ARole%3A%0AWhat%20I%20would%20like%20to%20discuss%3A%0A%0ARegards%2C%0A">pprandive@gmail.com</a>
+        </div>
+
+        <div class="contact-actions">
+          <a class="button" href="mailto:pprandive@gmail.com?subject=SQLInsights%20Enquiry&body=Hello%20Prafulla%2C%0A%0AI%20would%20like%20to%20know%20more%20about%20SQLInsights.%0A%0AMy%20name%3A%0AOrganization%3A%0ARole%3A%0AWhat%20I%20would%20like%20to%20discuss%3A%0A%0ARegards%2C%0A">Open Email App</a>
+          <a class="button button-outline" href="https://mail.google.com/mail/?view=cm&fs=1&to=pprandive@gmail.com&su=SQLInsights%20Enquiry&body=Hello%20Prafulla%2C%0A%0AI%20would%20like%20to%20know%20more%20about%20SQLInsights.%0A%0AMy%20name%3A%0AOrganization%3A%0ARole%3A%0AWhat%20I%20would%20like%20to%20discuss%3A%0A%0ARegards%2C%0A" target="_blank" rel="noopener">Open Gmail</a>
+          <button class="button button-outline" type="button" data-copy-email>Copy Email</button>
+        </div>
+        <p class="copy-status" id="copy-status" aria-live="polite"></p>
+        <p class="contact-note">If your computer doesn't have a default email app, use Gmail or copy the address above.</p>
+      </div>
+    </div>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div class="brand footer-brand">
+        <span class="brand-mark small" aria-hidden="true"><span class="db-layer"></span><span class="db-layer"></span><span class="db-layer"></span><span class="mark-lens"></span><span class="mark-line"></span></span>
+        <span><strong><span>SQL</span>INSIGHTS</strong><small>Smarter SQL. Better Outcomes.</small></span>
+      </div>
+      <a href="https://sqlinsights.in/">www.sqlinsights.in</a>
+      <a href="mailto:pprandive@gmail.com">pprandive@gmail.com</a>
+      <a href="https://www.linkedin.com/in/prafullaranadive/" target="_blank" rel="noopener">LinkedIn</a>
+      <span>© 2026 SQLInsights. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
